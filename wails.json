@@ -1,6 +1,6 @@
 {
-  "name": "newgo",
-  "outputfilename": "newgo",
+  "name": "GO-Tasks",
+  "outputfilename": "GO-Tasks",
   "frontend:install": "npm install",
   "frontend:build": "npm run build --base=./",
   "frontend:dev:watcher": "npm run dev",

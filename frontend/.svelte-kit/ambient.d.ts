@@ -30,6 +30,7 @@ declare module '$env/static/private' {
 	export const LANGUAGE: string;
 	export const USER: string;
 	export const npm_config_user_agent: string;
+	export const XDG_SEAT: string;
 	export const XDG_SESSION_TYPE: string;
 	export const npm_node_execpath: string;
 	export const SHLVL: string;
@@ -42,7 +43,7 @@ declare module '$env/static/private' {
 	export const XDG_SEAT_PATH: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
-	export const SYSTEMD_EXEC_PID: string;
+	export const CINNAMON_VERSION: string;
 	export const GOROOT: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const COLORTERM: string;
@@ -50,7 +51,6 @@ declare module '$env/static/private' {
 	export const npm_config_metrics_registry: string;
 	export const MANDATORY_PATH: string;
 	export const QT_QPA_PLATFORMTHEME: string;
-	export const IM_CONFIG_PHASE: string;
 	export const LOGNAME: string;
 	export const rvm_bin_path: string;
 	export const _: string;
@@ -61,6 +61,7 @@ declare module '$env/static/private' {
 	export const IRBRC: string;
 	export const TERM: string;
 	export const GTK_OVERLAY_SCROLLING: string;
+	export const XDG_SESSION_ID: string;
 	export const npm_config_cache: string;
 	export const GNOME_DESKTOP_SESSION_ID: string;
 	export const npm_config_node_gyp: string;
@@ -95,6 +96,7 @@ declare module '$env/static/private' {
 	export const LESSCLOSE: string;
 	export const rvm_version: string;
 	export const GPG_AGENT_INFO: string;
+	export const XDG_VTNR: string;
 	export const npm_config_globalconfig: string;
 	export const npm_config_init_module: string;
 	export const GEM_PATH: string;
@@ -143,6 +145,7 @@ declare module '$env/dynamic/private' {
 		LANGUAGE: string;
 		USER: string;
 		npm_config_user_agent: string;
+		XDG_SEAT: string;
 		XDG_SESSION_TYPE: string;
 		npm_node_execpath: string;
 		SHLVL: string;
@@ -155,7 +158,7 @@ declare module '$env/dynamic/private' {
 		XDG_SEAT_PATH: string;
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
-		SYSTEMD_EXEC_PID: string;
+		CINNAMON_VERSION: string;
 		GOROOT: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
 		COLORTERM: string;
@@ -163,7 +166,6 @@ declare module '$env/dynamic/private' {
 		npm_config_metrics_registry: string;
 		MANDATORY_PATH: string;
 		QT_QPA_PLATFORMTHEME: string;
-		IM_CONFIG_PHASE: string;
 		LOGNAME: string;
 		rvm_bin_path: string;
 		_: string;
@@ -174,6 +176,7 @@ declare module '$env/dynamic/private' {
 		IRBRC: string;
 		TERM: string;
 		GTK_OVERLAY_SCROLLING: string;
+		XDG_SESSION_ID: string;
 		npm_config_cache: string;
 		GNOME_DESKTOP_SESSION_ID: string;
 		npm_config_node_gyp: string;
@@ -208,6 +211,7 @@ declare module '$env/dynamic/private' {
 		LESSCLOSE: string;
 		rvm_version: string;
 		GPG_AGENT_INFO: string;
+		XDG_VTNR: string;
 		npm_config_globalconfig: string;
 		npm_config_init_module: string;
 		GEM_PATH: string;

@@ -22,17 +22,3 @@
 
 <slot />
 
-<style>
-    a{
-        color:white;
-    }
-    .navbar{
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-    .navlogo{
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100px;
-    }
-</style>

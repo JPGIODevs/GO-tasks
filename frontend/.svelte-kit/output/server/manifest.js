@@ -4,7 +4,7 @@ export const manifest = {
 	assets: new Set(["OLDBACKGROUND.jpeg","background.png","favicon.png","logo.png","navlogo.png"]),
 	mimeTypes: {".jpeg":"image/jpeg",".png":"image/png"},
 	_: {
-		client: {"start":{"file":"_app/immutable/entry/start.22aaeb91.js","imports":["_app/immutable/entry/start.22aaeb91.js","_app/immutable/chunks/index.35a29703.js","_app/immutable/chunks/singletons.1e92bac0.js"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.e4cfbf15.js","imports":["_app/immutable/entry/app.e4cfbf15.js","_app/immutable/chunks/index.35a29703.js"],"stylesheets":[],"fonts":[]}},
+		client: {"start":{"file":"_app/immutable/entry/start.b7ad062b.js","imports":["_app/immutable/entry/start.b7ad062b.js","_app/immutable/chunks/index.35a29703.js","_app/immutable/chunks/singletons.6389be79.js"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.92c10644.js","imports":["_app/immutable/entry/app.92c10644.js","_app/immutable/chunks/index.35a29703.js"],"stylesheets":[],"fonts":[]}},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
